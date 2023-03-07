@@ -31,7 +31,7 @@ body{
     width: 100%;
     position: fixed;
     text-align: center;
-    padding: 3px;
+    padding: 5px;
 }
 .opciones{
     display: inline-block;
@@ -142,7 +142,7 @@ body{
 }
 .Titulo_1{
     font-family: AlexBrush-Regular;
-    font-size: 8mm;
+    font-size: 6mm;
 }
 .Subtitulo{
     font-size: 5mm;
