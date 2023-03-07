@@ -167,7 +167,7 @@ body{
 }
 .in-flex{
     flex: 5;
-    background-color: rgb(115, 188, 115);
+    background-color: #5d5656;
     padding: 8px;
     margin-right: 15px;
     margin-left: 15px;
