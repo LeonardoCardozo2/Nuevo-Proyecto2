@@ -55,7 +55,7 @@
 body{
     background: #4c4747;
 }
-.Inicio_2{
+.cont-tarjetas{
     display: flex;
     flex-wrap: wrap;
     min-width: 300px;
@@ -63,14 +63,22 @@ body{
     margin-right: 20px auto;
 }
 .Presentacion{
-    width: 100%;
-    height: 30%;
+    width: 90%;
     border-radius: 10px;
 }
 .cont-img{
+    display: flex;
+    align-content: center;
+    justify-content: center;
     margin-top: 20px;
     margin-left: 15px;
     margin-right: 15px;
+}
+.Titulo-Imagen{
+    color: #fff;
+    font-size: 7mm;
+    margin-left: 10%;
+    margin-top: -50px;
 }
 .cont-m{
     display: flex;
@@ -81,7 +89,7 @@ body{
 .linea2{
     border: solid #4685fa 2px;
     border-radius: 4px;
-    margin: 5px 40px;
+    margin: 5px 45px;
 }
 #btn-menu{
     display: none;
@@ -122,11 +130,14 @@ body{
     padding: 20px;
     color: #c7c7c7;
     border-left: 5px solid transparent;
-    transition: all 400ms ease;
+    transition: all 500ms ease;
 }
 .cont-menu nav a:hover{
     border-left: 5px solid #c7c7c7;
     background: #1f1f1f;
+    border-radius: 7px;
+    margin-left: 6px;
+    margin-right: 6px;
 }
 .cont-menu label{
     position: absolute;
@@ -145,12 +156,12 @@ body{
 }
 .Titulo_1{
     font-family: KaushanScript-Regular;
-    font-size: 8mm;
+    font-size: 12mm;
     text-align: center;
     color: #4d78c9;
 }
 .Titulo_2{
-    font-size: 7mm;
+    font-size: 10mm;
     font-family: KaushanScript-Regular;
 }
 .Subtitulo{
@@ -221,9 +232,8 @@ figcaption{
 }
 .boton:hover,
 .boton-2:hover{
-    box-shadow: 2px 3px 4px;
-    transition-duration: 0.3s;
-    transition-delay: 0.1s;
+    box-shadow: 1px 3px 5px 2px rgba(225, 217, 217, 0.886);
+    transition-duration: 0.4s;
 }
 .boton-2{
     margin-top: 70px;
@@ -243,12 +253,6 @@ figcaption{
     text-align: center;
     font-size: 5mm;
     font-family: sans-serif;
-}
-.Titulo-Imagen{
-    color: #fff;
-    font-size: 6mm;
-    margin-left: 20px;
-    margin-top: -50px;
 }
 .linea{
     border: solid #4685fa 2px;
@@ -276,7 +280,7 @@ figcaption{
 }
 @media screen and (min-width: 970px){
     .Titulo_1{
-        font-size: 12mm;
+        font-size: 14mm;
     }
     .Titulo_2{
         font-size: 12mm;
@@ -301,6 +305,10 @@ figcaption{
         width: 300px;
         height: 220px;
     }
+    .Presentacion{
+        width: 100%;
+        height: 240px;
+    }
     .in-flex{
         margin-left: 5%;
         margin-right: 5%;
@@ -310,5 +318,8 @@ figcaption{
     }
     .pie-de-pagina{
         padding: 50px 0px;
+    }
+    .linea2{
+        margin: 2px 20px;
     }
 }
