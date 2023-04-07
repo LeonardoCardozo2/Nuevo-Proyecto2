@@ -85,6 +85,7 @@ body{
     align-content: center;
     justify-content: center;
     margin-top: 25px;
+    margin-left: 10px;
 }
 .linea2{
     border: solid #4685fa 2px;
@@ -157,21 +158,21 @@ body{
 .Titulo_1{
     font-family: KaushanScript-Regular;
     font-size: 12mm;
-    text-align: center;
     color: #4d78c9;
 }
 .Titulo_2{
-    font-size: 10mm;
+    font-size: 11mm;
     font-family: KaushanScript-Regular;
+    color: #4d78c9;
 }
 .Subtitulo{
     font-size: 5mm;
 }
-@font-face {
+@font-face{
     font-family: AlexBrush-Regular;
     src: url(Fuentes/AlexBrush-Regular.ttf);
 }
-@font-face {
+@font-face{
     font-family: KaushanScript-Regular;
     src: url(Fuentes/KaushanScript-Regular.otf);
 }
@@ -193,14 +194,14 @@ body{
     margin-bottom: 40px;
     border-radius: 9px;
 }
-.imagen_noticia-2{
+.imagen_tarjeta{
     border-radius: 5px;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     height: 250px;
     width: 300px;
-    box-shadow: 3px 2px 7px 2px;
+    box-shadow: 2px 2px 9px 3px #506da3;
     
 }
 .texto{
@@ -271,12 +272,11 @@ figcaption{
     font-size: 5mm;
 }
 .titulo-r{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 6mm;
+    font-family: KaushanScript-Regular;
+    font-size: 9mm;
     color: #fff;
     margin-left: 40px;
     margin-right: 20px;
-    margin-top: 20px;
 }
 @media screen and (min-width: 970px){
     .Titulo_1{
@@ -285,7 +285,7 @@ figcaption{
     .Titulo_2{
         font-size: 12mm;
     }
-    .imagen_noticia-2{
+    .imagen_tarjeta{
         width: 420px;
         height: 320px;
     }
