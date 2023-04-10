@@ -23,7 +23,7 @@
     color: #4685fa;
     font-size: 15px;
     position: relative;
-    margin-top: 10%;
+    margin-top: 12%;
     animation-delay: -0.16s;
 }
 .loader:before,
@@ -195,12 +195,12 @@ body{
     border-radius: 9px;
 }
 .imagen_tarjeta{
+    height: 250px;
+    width: 300px;
     border-radius: 5px;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    height: 250px;
-    width: 300px;
     box-shadow: 2px 2px 9px 3px #506da3;
     
 }
@@ -301,7 +301,7 @@ figcaption{
     }
 }
 @media screen and (max-width: 600px){
-    .imagen_noticia-2{
+    .imagen_tarjeta{
         width: 300px;
         height: 220px;
     }
