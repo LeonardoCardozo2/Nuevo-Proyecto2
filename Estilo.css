@@ -157,7 +157,7 @@ body{
 }
 .Titulo_1{
     font-family: KaushanScript-Regular;
-    font-size: 10mm;
+    font-size: 12mm;
     color: #4d78c9;
 }
 .Titulo_2{
@@ -165,8 +165,11 @@ body{
     font-family: KaushanScript-Regular;
     color: #4d78c9;
 }
+.Titulo-f{
+    font-size: 9mm;
+}
 .Subtitulo{
-    font-size: 5mm;
+    font-size: 4mm;
 }
 @font-face{
     font-family: AlexBrush-Regular;
