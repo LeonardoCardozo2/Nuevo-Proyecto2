@@ -157,7 +157,7 @@ body{
 }
 .Titulo_1{
     font-family: KaushanScript-Regular;
-    font-size: 12mm;
+    font-size: 10mm;
     color: #4d78c9;
 }
 .Titulo_2{
@@ -201,7 +201,7 @@ body{
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    box-shadow: 2px 2px 9px 3px #506da3;
+    box-shadow: 2px 2px 9px 3px #83ca87dc;
     
 }
 .texto{
@@ -247,13 +247,15 @@ figcaption{
     border-radius: 4px;
  }
 .pie-de-pagina{
-    margin-bottom: 0px;
-    margin-top: 100px;
     background-color: rgba(96, 96, 194, 0.815);
     padding: 20px;
     text-align: center;
     font-size: 5mm;
     font-family: sans-serif;
+}
+footer{
+    margin-top: 100px;
+    width: 100%;
 }
 .linea{
     border: solid #4685fa 2px;
