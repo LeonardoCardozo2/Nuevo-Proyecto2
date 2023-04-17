@@ -185,7 +185,7 @@ body{
 }
 .Caja_1{
     background-color: rgb(177, 171, 206);
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
     margin-left: 15px;
     margin-right: 15px;
@@ -338,5 +338,8 @@ footer{
 @media screen and (max-width: 400px){
     .Titulo-f{
         font-size: 9mm;
+    }
+    .Subtitulo{
+        font-size: 4mm;
     }
 }
