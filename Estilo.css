@@ -231,7 +231,7 @@ figcaption{
 }
 .boton{
    margin: 5px;
-   padding: 5px 18px;
+   padding: 6px 19px;
    font-size: 4mm;
    font-family: KaushanScript-Regular;
    background-color: #4685fa;
@@ -341,5 +341,11 @@ footer{
     }
     .Subtitulo{
         font-size: 4mm;
+    }
+    .texto{
+        font-size: 4.5mm;
+    }
+    .Titulo_1{
+        font-size: 9mm;
     }
 }
