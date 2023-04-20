@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Times New Roman; 
+}
+body{
+	background: #4c4747;
+}
+.cont-info{
+	display: block;
+	width: 30%;
+	height: max-height;
+	border: solid blue 2px;
+	border-radius: 6px;
+	margin-top: 40px;
+	margin-left: 20px;
+	padding: 10px;
+}
+.texto{
+	color: #fff;
+	font-size: 5mm;
+}
