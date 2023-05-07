@@ -9,12 +9,16 @@ body{
 .cont-info{
 	display: flex;
 	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+	margin-top: 40px;
 }
 .cont-info-f{
-	display: flex;
-	width: 30%;
+	width: 50%;
 	height: auto;
-	border: solid blue 2px;
+	background-color: #5d5c5c;
 	border-radius: 6px;
 	margin-top: 40px;
 	margin-left: 20px;
@@ -24,11 +28,42 @@ body{
 	color: #fff;
 	font-size: 5mm;
 }
-.cont-img{
-	float: right;
-	width: 500px;
-	margin: 40px 20px 0px 30px;
+.imagen{
+	width: 300px auto;
 	height: auto;
-	background-color: red;
+
+}
+.cont-img{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+@font-face{
+    font-family: KaushanScript-Regular;
+    src: url(../../Fuentes/KaushanScript-Regular.otf);
+}
+.titulo{
+	font-size: 12mm;
+	font-family: KaushanScript-Regular;
+	text-align: center;
+}
+.cont-boton{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin-top: 100px;
+}
+.boton{
+	background: #5d5c5c;
+	border-style: none;
+	font-size: 5mm;
 	padding: 10px;
+	border-radius: 10px;
+	width: 100%;
+}
+a{
+	width: 90%;
+}
+.boton:hover{
+	transition-duration: 0.5s;
+	box-shadow: 2px 3px 4px 5px #c3b9b978;
 }
