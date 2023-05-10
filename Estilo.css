@@ -167,7 +167,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
     margin-top: 13px;
 }
 .Titulo_1{
@@ -198,12 +197,9 @@ body{
 }
 .Caja_1{
     background-color: rgb(177, 171, 206);
-    padding: 30px;
-    border-radius: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 25px;
-    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 30px 10%;
 }
 .in-flex{
     flex: 5;
@@ -308,10 +304,8 @@ footer{
 }
 .linea{
     border: solid #4685fa 2px;
-    margin: 0px 12%;
-    margin-bottom: 60px;
-    margin-top: 60px;
-    border-radius: 2px;
+    border-radius: 4px;
+    margin: 0px 70px;
 }
 .texto__2{
     font-family: 'Times New Roman', Times, serif;
@@ -342,11 +336,9 @@ footer{
         padding: 50px;
     }
     .Caja_1{
-        margin-top: 35px;
-        margin-bottom: 50px;
-        margin-left: 70px;
-        margin-right: 70px;
-        padding: 25px;
+        margin: 70px 10%;
+        border-radius: 20px;
+        padding: 30px;
     }
 }
 @media screen and (max-width: 600px){
