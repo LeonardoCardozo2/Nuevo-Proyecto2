@@ -6,29 +6,66 @@
 body{
 	background: #4c4747;
 }
+.cont-menu{
+	margin-top: 10px;
+}
+.titulo{
+	text-align: center;
+	font-family: KaushanScript-Regular;
+	font-size: 11mm;
+}
 .cont-info{
 	display: flex;
-	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
 }
 .cont-info-f{
-	display: flex;
-	width: 30%;
+	width: 40%;
+	box-shadow: 2px 3px 2px 1px;
 	height: auto;
-	border: solid blue 2px;
 	border-radius: 6px;
 	margin-top: 40px;
-	margin-left: 20px;
+	margin-left: 5%;
 	padding: 10px;
+	background-color: #5c5555;
 }
 .texto{
 	color: #fff;
 	font-size: 5mm;
 }
 .cont-img{
+	display: flex;
 	float: right;
-	width: 500px;
-	margin: 40px 20px 0px 30px;
+	width: 40%;
+	margin: 40px 0px 0px 5%;
 	height: auto;
-	background-color: red;
-	padding: 10px;
+}
+.cont-boton{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.boton{
+	background-color: #8a7272;
+	font-family: KaushanScript-Regular;
+	font-size: 5mm;
+	padding: 7px;
+	border-style: none;
+	border-radius: 11px;
+	width: 80%;
+}
+a{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	width: 100%;
+}
+@font-face{
+    font-family: AlexBrush-Regular;
+    src: url(../../Fuentes/AlexBrush-Regular.ttf);
+}
+@font-face{
+    font-family: KaushanScript-Regular;
+    src: url(../../Fuentes/KaushanScript-Regular.otf);
 }

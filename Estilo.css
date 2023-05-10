@@ -64,6 +64,20 @@ body{
     margin-left: 20px auto;
     margin-right: 20px auto;
 }
+.cont-t{
+    text-align: center;
+    font-size: 7mm;
+}
+.boton-_f{
+    font-size: 6mm;
+    font-family: KaushanScript-Regular;
+    background-color: rgb(15, 15, 249);
+    border-radius: 10px;
+    border-style: none;
+    width: 50%;
+    padding: 9px;
+    margin-top: 50px;
+}
 .Presentacion{
     width: 85%;
     height: auto;
@@ -252,6 +266,35 @@ figcaption{
     border: #4685fa;
     border-radius: 4px;
  }
+ .cont-boton-v{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.boton-v{
+	background-color: #8a7272;
+	font-family: KaushanScript-Regular;
+	font-size: 5mm;
+	padding: 7px;
+	border-style: none;
+	border-radius: 11px;
+	width: 80%;
+}
+.boton-v:hover{
+    box-shadow: 3px 4px 4px 1px #bbb5b5c7;
+    transition-duration: 0.5s;
+}
+.a{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	width: 100%;
+}
+.cont-r{
+    background-color: #5d5656;
+    margin: 10px 5% 0px 5%;
+    border-radius: 11px;
+    padding: 10px;
+}
 .pie-de-pagina{
     background-color: rgba(96, 96, 194, 0.815);
     padding: 20px;
@@ -274,9 +317,7 @@ footer{
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     color: #fff;
-    margin-left: 40px;
-    margin-right: 20px;
-    margin-top: 15px;
+    margin: 15px 20px 0px 40px;
     font-size: 5mm;
 }
 .titulo-r{
