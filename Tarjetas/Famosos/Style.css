@@ -16,28 +16,15 @@ body{
 }
 .cont-info{
 	display: flex;
-<<<<<<< HEAD
-	flex-wrap: wrap;
-=======
->>>>>>> 9428a5a
 	align-content: center;
 	justify-content: center;
 	align-items: center;
 	justify-items: center;
-<<<<<<< HEAD
-	margin-top: 40px;
-}
-.cont-info-f{
-	width: 50%;
-	height: auto;
-	background-color: #5d5c5c;
-=======
 }
 .cont-info-f{
 	width: 40%;
 	box-shadow: 2px 3px 2px 1px;
 	height: auto;
->>>>>>> 9428a5a
 	border-radius: 6px;
 	margin-top: 40px;
 	margin-left: 5%;
@@ -48,16 +35,6 @@ body{
 	color: #fff;
 	font-size: 5mm;
 }
-<<<<<<< HEAD
-.imagen{
-	width: 300px auto;
-	height: auto;
-
-}
-.cont-img{
-	margin-left: 20px;
-	margin-top: 20px;
-=======
 .cont-img{
 	display: flex;
 	float: right;
@@ -87,38 +64,8 @@ a{
 @font-face{
     font-family: AlexBrush-Regular;
     src: url(../../Fuentes/AlexBrush-Regular.ttf);
->>>>>>> 9428a5a
 }
 @font-face{
     font-family: KaushanScript-Regular;
     src: url(../../Fuentes/KaushanScript-Regular.otf);
-<<<<<<< HEAD
-}
-.titulo{
-	font-size: 12mm;
-	font-family: KaushanScript-Regular;
-	text-align: center;
-}
-.cont-boton{
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	margin-top: 100px;
-}
-.boton{
-	background: #5d5c5c;
-	border-style: none;
-	font-size: 5mm;
-	padding: 10px;
-	border-radius: 10px;
-	width: 100%;
-}
-a{
-	width: 90%;
-}
-.boton:hover{
-	transition-duration: 0.5s;
-	box-shadow: 2px 3px 4px 5px #c3b9b978;
-=======
->>>>>>> 9428a5a
 }

@@ -55,23 +55,6 @@
 body{
     background: #4c4747;
 }
-.cont-b{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin-top: 25px;
-}
-.boton-f{
-    background: #4685fa;
-    border-radius: 10px;
-    border-style: none;
-    font-size: 7mm;
-    padding: 11px;
-}
-.titulo-f2{
-    font-size: 10mm;
-    text-align: center;
-}
 .cont-tarjetas{
     display: flex;
     flex-wrap: wrap;
@@ -123,16 +106,8 @@ body{
 .linea2{
     border: solid #4685fa 2px;
     border-radius: 4px;
-    margin: 10px 40px;
+    margin: 5px 45px;
 }
-<<<<<<< HEAD
-.linea3{
-    border: solid #4685fa 2px;
-    border-radius: 4px;
-    width: 80%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-=======
 #btn-menu{
     display: none;
 }
@@ -194,7 +169,6 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 13px;
->>>>>>> 9428a5a
 }
 .Titulo_1{
     font-family: KaushanScript-Regular;
@@ -224,23 +198,9 @@ body{
 }
 .Caja_1{
     background-color: rgb(177, 171, 206);
-<<<<<<< HEAD
-    padding: 30px;
-    border-radius: 15px;
-    margin-top: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 30px;
-=======
     padding: 25px;
     border-radius: 20px;
     margin: 30px 10%;
->>>>>>> 9428a5a
-}
-.caja_menu{
-    display: flex;
-    align-content: center;
-    justify-content: center;
 }
 .in-flex{
     flex: 5;
@@ -395,14 +355,9 @@ footer{
         padding: 50px;
     }
     .Caja_1{
-<<<<<<< HEAD
-        margin: 25mm 70px 25mm 70px;
-        padding: 25px;
-=======
         margin: 70px 10%;
         border-radius: 20px;
         padding: 30px;
->>>>>>> 9428a5a
     }
 }
 @media screen and (max-width: 600px){
