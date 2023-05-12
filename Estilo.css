@@ -81,8 +81,23 @@ body{
     margin-left: 20px auto;
     margin-right: 20px auto;
 }
+.cont-t{
+    text-align: center;
+    font-size: 7mm;
+}
+.boton-_f{
+    color: #fff;
+    font-size: 6mm;
+    font-family: KaushanScript-Regular;
+    background-color: rgb(15, 15, 249);
+    border-radius: 10px;
+    border-style: none;
+    width: 50%;
+    padding: 9px;
+    margin-top: 50px;
+}
 .Presentacion{
-    width: 85%;
+    width: 70%;
     height: auto;
     border-radius: 10px;
 }
@@ -93,9 +108,9 @@ body{
     margin-top: 20px;
 }
 .Titulo-Imagen{
-    color: #000;
+    color: rgb(163, 15, 255);
     font-size: 7mm;
-    margin-left: 10%;
+    margin-left: 17%;
     margin-top: -45px;
 }
 .cont-m{
@@ -110,12 +125,76 @@ body{
     border-radius: 4px;
     margin: 10px 40px;
 }
+<<<<<<< HEAD
 .linea3{
     border: solid #4685fa 2px;
     border-radius: 4px;
     width: 80%;
     margin-top: 50px;
     margin-bottom: 50px;
+=======
+#btn-menu{
+    display: none;
+}
+.container-menu{
+    position: absolute;
+    background: rgba(5, 5, 5, 0.526);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.cont-menu{
+    width: 100%;
+    max-width: 250px;
+    background: #000000c4;
+    height: 100vh;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+}
+#btn-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0%);
+}
+.cont-menu nav{
+    transform: translateY(15%);
+}
+.cont-menu nav a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #c7c7c7;
+    border-left: 5px solid transparent;
+    transition: all 500ms ease;
+}
+.cont-menu nav a:hover{
+    border-left: 5px solid #c7c7c7;
+    background: #1f1f1f;
+    border-radius: 7px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.cont-menu label{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+.caja_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+>>>>>>> 9428a5a
 }
 .Titulo_1{
     font-family: KaushanScript-Regular;
@@ -145,12 +224,18 @@ body{
 }
 .Caja_1{
     background-color: rgb(177, 171, 206);
+<<<<<<< HEAD
     padding: 30px;
     border-radius: 15px;
     margin-top: 30px;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 30px;
+=======
+    padding: 25px;
+    border-radius: 20px;
+    margin: 30px 10%;
+>>>>>>> 9428a5a
 }
 .caja_menu{
     display: flex;
@@ -194,6 +279,19 @@ figcaption{
     justify-content: center;
     margin-bottom: 15px;
 }
+.cont-video{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 50px;
+}
+.video{
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
 .boton{
    margin: 5px;
    padding: 6px 19px;
@@ -218,6 +316,35 @@ figcaption{
     border: #4685fa;
     border-radius: 4px;
  }
+ .cont-boton-v{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.boton-v{
+	background-color: #8a7272;
+	font-family: KaushanScript-Regular;
+	font-size: 5mm;
+	padding: 7px;
+	border-style: none;
+	border-radius: 11px;
+	width: 80%;
+}
+.boton-v:hover{
+    box-shadow: 3px 4px 4px 1px #bbb5b5c7;
+    transition-duration: 0.5s;
+}
+.a{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	width: 100%;
+}
+.cont-r{
+    background-color: #5d5656;
+    margin: 10px 5% 0px 5%;
+    border-radius: 11px;
+    padding: 10px;
+}
 .pie-de-pagina{
     background-color: rgba(96, 96, 194, 0.815);
     padding: 20px;
@@ -231,18 +358,19 @@ footer{
 }
 .linea{
     border: solid #4685fa 2px;
-    margin: 0px 12%;
-    margin-bottom: 60px;
-    margin-top: 60px;
-    border-radius: 2px;
+    border-radius: 4px;
+    margin: 0px 70px;
+}
+.linea3{
+    border: solid #4685fa 2px;
+    border-radius: 4px;
+    margin: 80px 70px;
 }
 .texto__2{
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     color: #fff;
-    margin-left: 40px;
-    margin-right: 20px;
-    margin-top: 15px;
+    margin: 15px 20px 0px 40px;
     font-size: 5mm;
 }
 .titulo-r{
@@ -267,8 +395,14 @@ footer{
         padding: 50px;
     }
     .Caja_1{
+<<<<<<< HEAD
         margin: 25mm 70px 25mm 70px;
         padding: 25px;
+=======
+        margin: 70px 10%;
+        border-radius: 20px;
+        padding: 30px;
+>>>>>>> 9428a5a
     }
 }
 @media screen and (max-width: 600px){
@@ -277,7 +411,7 @@ footer{
         height: 220px;
     }
     .Presentacion{
-        width: 90%;
+        width: 70%;
     }
     .Titulo-f{
         font-size: 11mm;
