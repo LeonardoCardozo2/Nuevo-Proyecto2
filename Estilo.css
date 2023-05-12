@@ -69,6 +69,7 @@ body{
     font-size: 7mm;
 }
 .boton-_f{
+    color: #fff;
     font-size: 6mm;
     font-family: KaushanScript-Regular;
     background-color: rgb(15, 15, 249);
@@ -79,7 +80,7 @@ body{
     margin-top: 50px;
 }
 .Presentacion{
-    width: 85%;
+    width: 70%;
     height: auto;
     border-radius: 10px;
 }
@@ -90,9 +91,9 @@ body{
     margin-top: 20px;
 }
 .Titulo-Imagen{
-    color: #000;
+    color: rgb(163, 15, 255);
     font-size: 7mm;
-    margin-left: 10%;
+    margin-left: 17%;
     margin-top: -45px;
 }
 .cont-m{
@@ -238,6 +239,19 @@ figcaption{
     justify-content: center;
     margin-bottom: 15px;
 }
+.cont-video{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 50px;
+}
+.video{
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
 .boton{
    margin: 5px;
    padding: 6px 19px;
@@ -307,6 +321,11 @@ footer{
     border-radius: 4px;
     margin: 0px 70px;
 }
+.linea3{
+    border: solid #4685fa 2px;
+    border-radius: 4px;
+    margin: 80px 70px;
+}
 .texto__2{
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
@@ -347,7 +366,7 @@ footer{
         height: 220px;
     }
     .Presentacion{
-        width: 90%;
+        width: 70%;
     }
     .Titulo-f{
         font-size: 11mm;
